@@ -40,7 +40,7 @@ body {
   border: 1px solid #000;
 }
 
-.blanc:active {
+.blanc.active {
   background: linear-gradient(to bottom, #fff 0%, rgb(227, 227, 227) 100%);
   box-shadow: inset -2px 2px 15px rgba(0, 0, 0, 0.2);
 }
@@ -54,7 +54,7 @@ body {
   margin: 0 -22px 0 -22px;
 }
 
-.black:active {
+.black.active {
   background: linear-gradient(to bottom, #000 0%, #333 100%);
   box-shadow: inset -2px 2px 15px rgba(255, 255, 255, 0.1);
 }
@@ -72,4 +72,32 @@ body {
   width: 100%;
   font-size: 1.13rem;
   text-align: center;
+}
+
+header {
+  color: #dedede;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-size: 1.16rem;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+}
+
+.column span {
+  font-weight: 400;
+  font-size: 1.12rem;
+  margin-right: 15px;
+}
+
+.volume input {
+  accent-color: white;
 }
