@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 1rem;
+  background: linear-gradient(to top, rgb(255, 255, 255), rgb(247, 223, 184));
+}
+
+.container {
+  background: rgb(19, 19, 19);
+  width: 800px;
+  border-radius: 20px;
+  padding: 35px 40px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
